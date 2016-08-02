@@ -25,7 +25,7 @@ docker run -e BOT_API_KEY=YOUR_SLACK_API_KEY \
 
 For now I do not know how to do many things. New gear (features), can they be added in the future. You can create your gears. If you think they can be useful to others, please send a pull request.
 
-#### Jenkins
+### Jenkins
 
 I know invoke their jobs in Jenkins. For this you need to enter your authorization link to build me.
 
@@ -45,7 +45,7 @@ hubot start job my-deploy
 
 --colocar imagem de exemplo
 
-#### Help
+### Help
 
 If you have questions about the available commands can ask me for help.
 
