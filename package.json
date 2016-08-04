@@ -1,6 +1,6 @@
 {
-  "name": "hubot.js",
-  "version": "1.0.0",
+  "name": "hubot.js-teste-robson",
+  "version": "1.0.1",
   "description": "A small robot written in Javascript (He does not like coffeescript)",
   "main": "app.js",
   "scripts": {
