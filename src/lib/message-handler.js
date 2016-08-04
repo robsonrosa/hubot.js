@@ -2,7 +2,7 @@
 
 exports.callTasks = callTasks;
 
-var trigger = require(__base + 'src/lib/trigger');
+var trigger = require('./trigger');
 
 function callTasks(message, hubot) {
    hubot.core.tasks.forEach(function(task) {

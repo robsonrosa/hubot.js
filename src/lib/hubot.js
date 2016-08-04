@@ -2,9 +2,9 @@
 
 var util = require('util');
 var Bot = require('slackbots');
-var log = require(__base + 'src/lib/log');
-var Assembler = require(__base + 'src/lib/assembler');
-var messageHandler = require(__base + 'src/lib/message-handler');
+var log = require('./log');
+var Assembler = require('./assembler');
+var messageHandler = require('./message-handler');
 
 process.on('uncaughtException', function (exception) {
   log.error(exception);

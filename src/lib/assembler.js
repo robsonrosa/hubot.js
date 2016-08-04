@@ -1,7 +1,7 @@
 'use strict';
 
-var log = require(__base + 'src/lib/log');
-var speech = require(__base + 'src/lib/speech');
+var log = require('./log');
+var speech = require('./speech');
 var gears = require(__base + 'config/gears.json');
 
 module.exports = class Assembler {
