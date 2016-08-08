@@ -4,9 +4,11 @@
 
 [![nodesource/node](http://dockeri.co/image/robsonbittencourt/hubot.js)](https://registry.hub.docker.com/u/robsonbittencourt/hubot.js/)
 
-Hello my name is Hubot. I'm a robot and I work doing things in Slack chats. At first, I do not know many things, but I love new gears. Feel free to create them.
-
 ![start-deploy-gif](https://s10.postimg.org/7obu7c8u1/hubot_start_deploy.gif)
+
+## Hello world
+
+Hello my name is Hubot. I'm a robot and I work doing things in Slack chats. At first, I do not know many things, but I love new gears. Feel free to create them.
 
 ## How turn on?
 
