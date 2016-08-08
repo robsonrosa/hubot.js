@@ -4,7 +4,7 @@
 
 [![nodesource/node](http://dockeri.co/image/robsonbittencourt/hubot.js)](https://registry.hub.docker.com/u/robsonbittencourt/hubot.js/)
 
-![start-deploy-gif](https://s10.postimg.org/7obu7c8u1/hubot_start_deploy.gif)
+![start-deploy-gif](https://s9.postimg.org/8yikgyrcv/hubot_start_deploy2.gif)
 
 ## Hello world
 
