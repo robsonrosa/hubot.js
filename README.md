@@ -6,7 +6,7 @@
 
 Hello my name is Hubot. I'm a robot and I work doing things in Slack chats. At first, I do not know many things, but I love new gears. Feel free to create them.
 
--- colocar gif mostrando em funcionamento
+![start-deploy-gif](https://s10.postimg.org/7obu7c8u1/hubot_start_deploy.gif)
 
 ## How turn on?
 
@@ -15,7 +15,7 @@ The first step is to create a bot user on Slack. For this you can follow [these 
 To enable me is very simple. I have a recipe of how to build me in [Dockerhub](https://hub.docker.com/r/robsonbittencourt/hubot.js/). Just run the following command:
 
 ```
-docker run -e BOT_API_KEY=YOUR_SLACK_API_KEY \
+docker run -d -e BOT_API_KEY=YOUR_SLACK_API_KEY \
    -e BOT_NAME=NAME_OF_YOUR_BOT
    --name=hubot \
    robsonbittencourt/hubot.js
@@ -31,7 +31,7 @@ I know invoke their jobs in Jenkins. For this you need to enter your authorizati
 
 ```
 docker run -e BOT_API_KEY=YOUR_SLACK_API_KEY \
-   -e BOT_NAME=NAME_OF_YOUR_BOT
+   -e BOT_NAME=NAME_OF_YOUR_BOT \
    -e JENKINS_AUTH_URL=YOUR_JENKINS_AUTH_URL \
    --name=hubot \
    robsonbittencourt/hubot.js
@@ -43,7 +43,7 @@ It can be obtained from `yourJenkinsUrl/me/configure`. After that you can ask me
 hubot start job my-deploy
 ```
 
---colocar imagem de exemplo
+![start-deploy](https://s9.postimg.org/u2rn0uxi7/hubot_job.png)
 
 ### Help
 
@@ -53,7 +53,7 @@ If you have questions about the available commands can ask me for help.
 hubot help
 ```
 
---colocar imagem de exemplo
+![hubot-help](https://s9.postimg.org/4cdefcuzz/hubot_help.png)
 
 ## Development setup
 TODO
