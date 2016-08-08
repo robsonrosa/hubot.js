@@ -45,7 +45,7 @@ It can be obtained from `yourJenkinsUrl/me/configure`. After that you can ask me
 hubot start job my-deploy
 ```
 
-![start-deploy](https://s9.postimg.org/u2rn0uxi7/hubot_job.png)
+![start-deploy](https://s9.postimg.org/g9dt1se9b/hubot_job.png)
 
 ### Help
 
@@ -55,7 +55,7 @@ If you have questions about the available commands can ask me for help.
 hubot help
 ```
 
-![hubot-help](https://s9.postimg.org/4cdefcuzz/hubot_help.png)
+![hubot-help](https://s9.postimg.org/rf26x119b/hubot_help.png)
 
 ## Development setup
 TODO
