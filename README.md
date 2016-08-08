@@ -25,7 +25,7 @@ docker run -d -e BOT_API_KEY=YOUR_SLACK_API_KEY \
 
 ## Usage
 
-For now I do not know how to do many things. New gear (features), can they be added in the future. You can create your gears. If you think they can be useful to others, please send a pull request.
+For now I do not know how to do many things. New gears (features), can they be added in the future. You can create your gears. If you think they can be useful to others, please send a pull request.
 
 ### Jenkins
 
