@@ -5,7 +5,7 @@
 
 ## Hello world
 
-Hello my name is Hubot. I'm a robot and I work doing things in Slack chats. At first, I do not know many things, but I love new gears. Feel free to create them.
+Hello, my name is Hubot. I'm a robot and I work doing things in Slack chats. At first, I do not know many things, but I love new gears. Feel free to create them.
 
 ![start-deploy-gif](https://s9.postimg.org/8yikgyrcv/hubot_start_deploy2.gif)
 
@@ -17,7 +17,8 @@ To enable me is very simple. I have a recipe of how to build me in [Dockerhub](h
 
 ```
 docker run -d -e BOT_API_KEY=YOUR_SLACK_API_KEY \
-   -e BOT_NAME=NAME_OF_YOUR_BOT
+   -e BOT_NAME=NAME_OF_YOUR_BOT \
+   --restart="unless-stopped"
    --name=hubot \
    robsonbittencourt/hubot.js
 ```
@@ -34,6 +35,7 @@ I know invoke their jobs in Jenkins. For this you need to enter your authorizati
 docker run -e BOT_API_KEY=YOUR_SLACK_API_KEY \
    -e BOT_NAME=NAME_OF_YOUR_BOT \
    -e JENKINS_AUTH_URL=YOUR_JENKINS_AUTH_URL \
+   --restart="unless-stopped" \
    --name=hubot \
    robsonbittencourt/hubot.js
 ```
