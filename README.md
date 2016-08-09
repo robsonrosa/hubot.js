@@ -3,11 +3,11 @@
 
 > A small robot written in Javascript (He does not like coffeescript)
 
-![start-deploy-gif](https://s9.postimg.org/8yikgyrcv/hubot_start_deploy2.gif)
-
 ## Hello world
 
 Hello my name is Hubot. I'm a robot and I work doing things in Slack chats. At first, I do not know many things, but I love new gears. Feel free to create them.
+
+![start-deploy-gif](https://s9.postimg.org/8yikgyrcv/hubot_start_deploy2.gif)
 
 ## How turn on?
 
