@@ -1,6 +1,6 @@
 {
   "name": "hubot.js-teste-robson",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A small robot written in Javascript (He does not like coffeescript)",
   "scripts": {
     "test": "./node_modules/.bin/mocha --recursive --reporter spec"
@@ -23,7 +23,6 @@
   "homepage": "https://github.com/robsonbittencourt/hubot.js#readme",
   "dependencies": {
     "chai": "^3.5.0",
-    "jenkins": "^0.17.0",
     "mocha": "^2.5.3",
     "slackbots": "^0.5.1",
     "string": "^3.3.1",
