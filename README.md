@@ -1,26 +1,37 @@
-# hubot.js [![Build Status](https://travis-ci.org/robsonbittencourt/hubot.js.svg?branch=master)](https://travis-ci.org/robsonbittencourt/hubot.js)
+# hubot.js [![Build Status](https://travis-ci.org/robsonbittencourt/hubot.js.svg?branch=master)](https://travis-ci.org/robsonbittencourt/hubot.js) 
+[![nodesource/node](http://dockeri.co/image/robsonbittencourt/hubot.js)](https://registry.hub.docker.com/u/robsonbittencourt/hubot.js/)
 
 > A small robot written in Javascript (He does not like coffeescript)
 
-[![nodesource/node](http://dockeri.co/image/robsonbittencourt/hubot.js)](https://registry.hub.docker.com/u/robsonbittencourt/hubot.js/)
+## Hello world
+
+Hello, my name is Hubot. I'm a robot and I work doing things in Slack chats. At first, I do not know many things, but I love new gears. Feel free to create them.
 
 ![start-deploy-gif](https://s10.postimg.org/jl5ptldnt/hubot_start_deploy2.gif)
 
-## Hello world
-
-Hello my name is Hubot. I'm a robot and I work doing things in Slack chats. At first, I do not know many things, but I love new gears. Feel free to create them.
-
-## How turn on?
+## How turn me on?
 
 The first step is to create a bot user on Slack. For this you can follow [these steps](https://api.slack.com/bot-users). With a bot created and the token in hand we can go to the next step.
 
-To enable me is very simple. I have a recipe of how to build me in [Dockerhub](https://hub.docker.com/r/robsonbittencourt/hubot.js/). Just run the following command:
+### Docker
+
+To enable me with Docker is very simple. I have a recipe of how to build me in [Dockerhub](https://hub.docker.com/r/robsonbittencourt/hubot.js/). Just run the following command:
 
 ```
-docker run -d -e BOT_API_KEY=YOUR_SLACK_API_KEY \
-   -e BOT_NAME=NAME_OF_YOUR_BOT
+docker run -d -e BOT_API_KEY=your_slack_api_key \
+   -e BOT_NAME=name_of_your_bot \
+   --restart="unless-stopped"
    --name=hubot \
    robsonbittencourt/hubot.js
+```
+
+### Node.js
+
+If you don't use Docker no problem. You can turn me on using Node.js commands. For this set variables before node command.
+
+```
+BOT_API_KEY=your_slack_api_key BOT_NAME=name_of_your_bot node app.js
+
 ```
 
 ## Usage
@@ -32,14 +43,15 @@ For now I do not know how to do many things. New gears (features), can they be a
 I know invoke their jobs in Jenkins. For this you need to enter your authorization link to build me.
 
 ```
-docker run -d -e BOT_API_KEY=YOUR_SLACK_API_KEY \
-   -e BOT_NAME=NAME_OF_YOUR_BOT \
-   -e JENKINS_AUTH_URL=YOUR_JENKINS_AUTH_URL \
+docker run -d -e BOT_API_KEY=your_slack_api_key \
+   -e BOT_NAME=name_of_your_bot \
+   -e JENKINS_AUTH_URL=your_jenkins_auth_url \
+   --restart="unless-stopped" \
    --name=hubot \
    robsonbittencourt/hubot.js
 ```
 
-It can be obtained from `yourJenkinsUrl/me/configure`. After that you can ask me to do their jobs.
+It can be obtained from `yourJenkinsUrl/me/configure`. See more details [here](https://wiki.jenkins-ci.org/display/JENKINS/Authenticating+scripted+clients). After that you can ask me to do their jobs.
 
 ```
 hubot start job my-deploy
@@ -58,8 +70,14 @@ hubot help
 ![hubot-help](https://s9.postimg.org/rf26x119b/hubot_help.png)
 
 ## Development setup
-TODO
+- Fork and clone this project
+- In the main directory run ```npm install```to install dependencies.
+- Use node command (see before) for run Hubot.js
+- Write your code
+- To run tests use ```npm test``` command
 
+## Contributors
+[Robson Rosa](https://github.com/robsonrosa)
 
 ## Meta
 Robson Bittencourt - @rluizv - robson.luizv@gmail.com
