@@ -4,7 +4,7 @@
 
 [![nodesource/node](http://dockeri.co/image/robsonbittencourt/hubot.js)](https://registry.hub.docker.com/u/robsonbittencourt/hubot.js/)
 
-Hello! My name is Hubot. I'm a robot and my job is to do stuff in Slack chats. At first, I don't know many things, but when gears are connected everythin is possible. I love new gears. Feel free to create them.
+Hello! My name is Hubot. I'm a robot and my job is to do stuff in Slack chats. At first, I don't know many things, but when gears are attached everything is possible. I love new gears. Feel free to create them.
 
 -- colocar gif mostrando em funcionamento
 
@@ -23,11 +23,11 @@ docker run -e BOT_API_KEY=YOUR_SLACK_API_KEY \
 
 ## Usage
 
-For now, I don't know how to do many things. New gears (features) can be added in the future. You can create your gears. If you think they can be useful to others, please send a pull request.
+For now, I don't know how to do many things. But I'm able to understand and to use new gears (features). You can create your own gears. If you think they can be useful for others users, please share it with the world.
 
 ### Jenkins
 
-I know invoke their jobs in Jenkins. For this you need to enter your authorization link to build me.
+I know  how to invoke your jobs in Jenkins. For this, you need to enter your authorization link to build me.
 
 ```
 docker run -e BOT_API_KEY=YOUR_SLACK_API_KEY \
@@ -37,7 +37,7 @@ docker run -e BOT_API_KEY=YOUR_SLACK_API_KEY \
    robsonbittencourt/hubot.js
 ```
 
-It can be obtained from `yourJenkinsUrl/me/configure`. After that you can ask me to do their jobs.
+It can be obtained from `yourJenkinsUrl/me/configure`. After that, you can ask me to do your jobs.
 
 ```
 hubot start job my-deploy
@@ -47,7 +47,7 @@ hubot start job my-deploy
 
 ### Help
 
-If you have questions about the available commands can ask me for help.
+If you have doubt about the available commands, pleaseask me for help. I'll be glad to use my knowledge and answer your questions.
 
 ```
 hubot help
