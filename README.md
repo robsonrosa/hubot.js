@@ -23,7 +23,7 @@ docker run -e BOT_API_KEY=YOUR_SLACK_API_KEY \
 
 ## Usage
 
-For now, I don't know how to do many things. But I'm able to understand and to use new gears (features). You can create your own gears. If you think they can be useful for others users, please share it with the world.
+For now, I don't know how to do many things. But I'm able to understand and to use new gears (features). You can create your own gears. If you think they can be useful for other users, please share it with the world.
 
 ### Jenkins
 
@@ -47,7 +47,7 @@ hubot start job my-deploy
 
 ### Help
 
-If you have doubt about the available commands, pleaseask me for help. I'll be glad to use my knowledge and answer your questions.
+If you have doubt about the available commands, please ask me for help. I'll be glad to use my gears and knowledge to answer your questions.
 
 ```
 hubot help
