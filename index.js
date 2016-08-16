@@ -1,9 +1,6 @@
 'use strict';
 
-module.exports = require('./src/lib/hubot.js');
-require('./src/lib/assembler.js');
-require('./src/lib/bot-jenkins.js');
-require('./src/lib/log.js');
-require('./src/lib/message-handler.js');
-require('./src/lib/speech.js');
-require('./src/lib/speech.js');
+module.exports.log = require('./src/lib/log.js');
+module.exports.hubot = require('./src/lib/hubot.js');
+module.exports.speech = require('./src/lib/speech.js');
+module.exports.jenkins = require('./src/lib/bot-jenkins.js');
