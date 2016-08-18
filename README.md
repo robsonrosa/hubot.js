@@ -1,4 +1,4 @@
-# hubot.js [![Build Status](https://travis-ci.org/robsonbittencourt/hubot.js.svg?branch=master)](https://travis-ci.org/robsonbittencourt/hubot.js)  ![dependencies-badge](https://david-dm.org/robsonbittencourt/hubot.js.svg)
+# hubot.js [![Build Status](https://travis-ci.org/robsonbittencourt/hubot.js.svg?branch=master)](https://travis-ci.org/robsonbittencourt/hubot.js)  ![dependencies-badge](https://david-dm.org/robsonbittencourt/hubot.js.svg)  [![Docker Stars](https://img.shields.io/docker/stars/robsonbittencourt/hubot.js.svg?maxAge=2592000)]()
 
 > A small robot written in Javascript (He does not like coffeescript)
 
